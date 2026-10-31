@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pinTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_primary"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pinMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:minHeight="24dp"
+        android:textColor="@color/text_secondary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/pinDots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/accent"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/key1"
+            style="@style/PinKey"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/key2"
+            style="@style/PinKey"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/key3"
+            style="@style/PinKey"
+            android:text="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/key4"
+            style="@style/PinKey"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/key5"
+            style="@style/PinKey"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/key6"
+            style="@style/PinKey"
+            android:text="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/key7"
+            style="@style/PinKey"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/key8"
+            style="@style/PinKey"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/key9"
+            style="@style/PinKey"
+            android:text="9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/keyDelete"
+            style="@style/PinKey"
+            android:text="@string/key_delete"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/key0"
+            style="@style/PinKey"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/keyOk"
+            style="@style/PinKey"
+            android:text="@string/key_ok"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
