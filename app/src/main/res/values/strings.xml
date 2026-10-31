@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TV Lock</string>
+    <string name="service_description">TV Lock asks for a PIN whenever a locked app is opened. It only checks which app is on screen and never reads what is inside it.</string>
+
+    <!-- PIN screens -->
+    <string name="create_pin_title">Create your PIN</string>
+    <string name="create_pin_hint">Choose 4 to 6 digits, then press OK</string>
+    <string name="confirm_pin_title">Confirm your PIN</string>
+    <string name="confirm_pin_hint">Enter the same PIN again, then press OK</string>
+    <string name="enter_pin_title">Enter PIN</string>
+    <string name="enter_pin_hint">Enter your PIN to manage locked apps</string>
+    <string name="pin_too_short">The PIN needs at least 4 digits</string>
+    <string name="pins_do_not_match">The PINs did not match. Please start again</string>
+    <string name="wrong_pin">Wrong PIN. Try again</string>
+    <string name="too_many_attempts">Too many wrong attempts. Try again in %1$d s</string>
+    <string name="key_delete">Delete</string>
+    <string name="key_ok">OK</string>
+
+    <!-- App list -->
+    <string name="list_subtitle">Choose which apps need a PIN to open. Press OK on an app to turn its lock on or off.</string>
+    <string name="loading_apps">Loading apps…</string>
+    <string name="state_locked">Needs PIN</string>
+    <string name="state_open">Open</string>
+    <string name="status_on">Protection is ON. Locked apps ask for the PIN every time they are opened.</string>
+    <string name="status_service_off">Protection is OFF. Turn on the app lock service so locked apps can ask for the PIN.</string>
+    <string name="status_overlay_off">Almost done: allow TV Lock to appear on top of other apps. Without this, the PIN screen may not show on some TVs.</string>
+    <string name="btn_enable_service">Turn on the app lock service</string>
+    <string name="btn_allow_overlay">Allow TV Lock to appear on top of apps</string>
+    <string name="settings_unavailable">This screen is not available on your TV. See the README for another way.</string>
+
+    <!-- Lock screen -->
+    <string name="lock_title_format">%1$s is locked</string>
+    <string name="lock_subtitle">Enter the PIN to open this app</string>
+    <string name="btn_back_home">Back to home</string>
+    <string name="unknown_app">This app</string>
+</resources>
