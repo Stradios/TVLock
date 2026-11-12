@@ -1,4 +1,5 @@
 # TV Lock
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M8K423K344)
 
 A simple PIN lock for apps on Android TV / Google TV. Pick apps (like YouTube) from a list, and they ask for a PIN every time they are opened.
 
